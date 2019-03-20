@@ -4,6 +4,7 @@
   z-index: 9999;
 }
 
+
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
@@ -29,7 +30,7 @@
 .sticky {
   position: fixed;
   top: 0;
-  width: 99%;
+  width: 100%;
 }
 /* Slideshow container */
 .slideshow-container {
@@ -37,7 +38,10 @@ max-width: 100%;
 position: relative;
 margin: auto;
 }
+#slides{
+  width:100%;
 
+}
 /* Hide the images by default */
 .mySlides {
 display: none;
@@ -76,7 +80,7 @@ color: #f2f2f2;
 font-size: 15px;
 padding: 8px 12px;
 position: absolute;
-bottom: 8px;
+bottom: 50px;
 width: 100%;
 text-align: center;
 }
@@ -145,6 +149,8 @@ text-align: left;
 }
 body, html {
 height: 100%;
+margin: 0;
+padding: 0;
 }
 
 /* The hero image */
